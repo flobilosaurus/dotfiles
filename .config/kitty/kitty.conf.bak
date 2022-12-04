@@ -4,7 +4,7 @@ italic_font      auto
 bold_italic_font auto
 font_size 15.0
 scrollback_lines 10000
-# clear_all_shortcuts			yes
+clear_all_shortcuts			yes
 macos_quit_when_last_window_closed yes
 tab_bar_style slant
 kitty_mod ctrl+shift
@@ -21,6 +21,6 @@ window_padding_width 0 4
 # macos_titlebar_color #0d1117
 
 # BEGIN_KITTY_THEME
-# GitHub Dark
+# GitHub Light
 include current-theme.conf
 # END_KITTY_THEME
