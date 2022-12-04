@@ -18,7 +18,7 @@ map kitty_mod+v         paste_from_clipboard
 map cmd+\               launch --type=os-window --cwd=current
 
 window_padding_width 0 4 
-macos_titlebar_color #0d1117
+# macos_titlebar_color #0d1117
 
 # BEGIN_KITTY_THEME
 # GitHub Dark
