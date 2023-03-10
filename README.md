@@ -5,6 +5,7 @@ Includes
 * kitty terminal emulator
 * fish shell
 * tmux terminal multiplexer
+* starship.toml
 * neovim
 * ...
 
@@ -15,6 +16,9 @@ See [.config/kitty](.config/kitty)
 
 ## Config of [tmux terminal multiplexer](https://github.com/tmux/tmux/wiki)
 See [.tmux.conf](.tmux.conf)
+
+## Config of [tmux terminal multiplexer](https://github.com/tmux/tmux/wiki)
+See [starship.toml](.starship.toml)
 
 ## Config of [NeoVim editor](https://neovim.io/)
 See my other repo [nvim-config](https://github.com/flobilosaurus/nvim-config)
