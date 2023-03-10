@@ -18,7 +18,7 @@ See [.config/kitty](.config/kitty)
 See [.tmux.conf](.tmux.conf)
 
 ## Config of [starship prompt](https://starship.rs/)
-See [starship.toml](.starship.toml)
+See [starship.toml](starship.toml)
 
 ## Config of [NeoVim editor](https://neovim.io/)
 See my other repo [nvim-config](https://github.com/flobilosaurus/nvim-config)
