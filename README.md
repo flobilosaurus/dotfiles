@@ -17,7 +17,7 @@ See [.config/kitty](.config/kitty)
 ## Config of [tmux terminal multiplexer](https://github.com/tmux/tmux/wiki)
 See [.tmux.conf](.tmux.conf)
 
-## Config of [tmux terminal multiplexer](https://github.com/tmux/tmux/wiki)
+## Config of [starship prompt](https://starship.rs/)
 See [starship.toml](.starship.toml)
 
 ## Config of [NeoVim editor](https://neovim.io/)
