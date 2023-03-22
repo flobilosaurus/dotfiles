@@ -87,7 +87,7 @@ command_timeout = 1000
 disabled = true
 [kubernetes]
 disabled = false
-format = '[ on ☸ $context](dimmed purple) '
+format = 'on [☸ $context](dimmed yellow) '
 [kubernetes.context_aliases]
 '.*prod.*' = 'prod'
 '.*stage.*' = 'stage'
