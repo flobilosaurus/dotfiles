@@ -1,4 +1,4 @@
-term             xterm-256color
+term             xterm-kitty
 font_family      JetBrainsMono Nerd Font Mono 
 bold_font        auto
 italic_font      auto
@@ -15,6 +15,12 @@ map super+left send_text all \x01
 map super+right send_text all \x05
 # remove line
 map super+backspace send_text all \x15
+# remove word
+map alt+backspace send_text all \x17
+# jump word left
+map alt+left send_text all \x1b\x62
+# jump word right
+map alt+right send_text all \x1b\x66
 map kitty_mod+equal     change_font_size all +1.0
 map kitty_mod+minus     change_font_size all -1.0
 map kitty_mod+backspace change_font_size all 0
@@ -23,13 +29,8 @@ map kitty_mod+c         copy_to_clipboard
 map cmd+v               paste_from_clipboard
 map kitty_mod+v         paste_from_clipboard
 map cmd+\               launch --type=os-window --cwd=current
-map f1 launch --stdin-source=@screen_scrollback nvim 
 
-window_padding_width 0 4 
-# macos_titlebar_color #0d1117
-
-  
 # BEGIN_KITTY_THEME
-# GitHub Light
+# Catppuccin Kitty Latte
 include current-theme.conf
 # END_KITTY_THEME
