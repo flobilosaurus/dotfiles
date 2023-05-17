@@ -31,6 +31,6 @@ map kitty_mod+v         paste_from_clipboard
 map cmd+\               launch --type=os-window --cwd=current
 
 # BEGIN_KITTY_THEME
-# Catppuccin Kitty Mocha
+# Catppuccin Kitty Latte
 include current-theme.conf
 # END_KITTY_THEME
